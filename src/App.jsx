@@ -67,7 +67,7 @@ const App = () => {
       
       setTrendingMovies(movies);
     }catch(error){
-      console.error('Error fetching trending movies :${error}');
+      console.error('Error fetching trending movies :${error}', error);
       // setErrorMessage('Error fetching trending movies.') /*give amiguity issue so commit*/
     }
    }
