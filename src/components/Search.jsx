@@ -7,7 +7,7 @@ import React from 'react'
             <img src='search.svg' alt='Search' />
 
             <input type="text " 
-            placeholder='Seach Through thousan Movies' 
+            placeholder='Seach Through thousand Movies' 
             value={searchTerm}
             onChange={(event)=>setSearchTerm(event.target.value)} />
         </div>
